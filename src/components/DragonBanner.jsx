@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Dragon.css';
+import './DragonBanner.css';
 
 const colors = [
     'linear-gradient(20deg, #d7b5c3, #6e93a5, #f8e2d0, #e74c3c, #ff6f61)',
@@ -120,7 +120,7 @@ const DragonBanner = () => {
                     onTouchStart={(e) => handleTouchStart(e, 11)}
                 >
                     <video
-                        src={`images/dragon_11.mp4`} // Ajusta la extensión según tus archivos
+                        src={`videos/dragon_1.mp4`} // Ajusta la extensión según tus archivos
                         autoPlay
                         loop
                         muted
